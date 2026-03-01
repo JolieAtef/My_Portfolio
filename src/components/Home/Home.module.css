@@ -1,0 +1,27 @@
+/* .hero_title{
+    display: flex;
+    overflow: hidden;
+    border-right: 2px solid rgb(238, 186, 240);
+    width: 0;
+    animation:
+      typing 3s steps(11) forwards,
+      deleting 2s steps(11) forwards 3.5s;
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; 
+    }
+  }
+  
+  @keyframes deleting {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
+  } */
