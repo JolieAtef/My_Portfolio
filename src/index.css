@@ -121,6 +121,7 @@
     --high-color:#9A235D;
     --medium-color:#9a235d7f;
     --light-color:#EFEFEF;
+    --secondary-color:#fbfbfb;
     --font-color:#0a0a1a;
     --font-btn-color:#0a0a1a;
   }
@@ -130,8 +131,10 @@
     --high-color:#f4e1ec;
     --medium-color:#ed79b1d2;
     --light-color:#0a0a1a;
+    --secondary-color:#ffffff14;
     --font-color:#f4e1ec;
     --font-btn-color:#0a0a1a;
+  
   }
 
   * {

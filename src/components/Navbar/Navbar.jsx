@@ -21,7 +21,7 @@ export function Navbar() {
     <h1 className="font-bold text-4xl">J<span className="text-(--high-color) dark:text-(--medium-color)">.</span>A</h1>
     </div>
 
-    <div className="dark:md:bg-(--second-color)/85 md:bg-(--medium-color)/90 px-4 py-2 z-20 order-last rounded-full shadow-2xl ">
+    <div className=" md:bg-(--medium-color)/90 px-4 py-2 z-20 order-last rounded-full shadow-2xl ">
     <nav className={`navbar_links ${menuOpen ? "active" : ""}`}>
         <Link to="/" onClick={closeMenu}>Home</Link>
         <Link to="/about" onClick={closeMenu}>About</Link>
