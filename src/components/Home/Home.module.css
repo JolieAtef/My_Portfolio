@@ -25,3 +25,17 @@
       width: 0;
     }
   } */
+
+
+  .moving{
+    animation: moving 3s infinite alternate;
+  }
+
+  @keyframes moving {
+       from{
+          transform: translateY(-10px);
+        }
+        to{
+         transform: translateY(10px);
+       }
+  }

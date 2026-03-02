@@ -8,7 +8,7 @@ export function Home() {
   return (
     <div>
         <div className="hero grid grid-cols-1 lg:grid-cols-2 container mx-auto py-15 gap-10 items-center ">
-         <div className="hero_left text-center lg:text-start">
+         <div className="hero_left text-center lg:text-start" data-aos="fade-right" data-aos-duration="1000">
           <div className="hero_left_info">
           <p className="text-xl text-(--second-color)">HELLO, I'M</p>
           <h2 className="hero_name font-bold text-7xl my-8">Jolie Atef</h2>
@@ -28,13 +28,16 @@ export function Home() {
           <a className="text-[1.1rem] bg-inherit hover:bg-inherit rounded-full size-[50px]  p-2 border-2 border-gray-500 text-(--font-color) flex justify-center items-center hover:border-(--first-color) hover:text-(--first-color) hover:shadow hover:shadow-fuchsia-400 hover:-translate-y-2 transition-all duration-300" href="tel:01286100866" target="_blank" > <i class="fas fa-phone"></i></a>
           </div>
          </div>
-
-         <div className="hero_right flex justify-center">
+        
+    
+        <div className="hero_right"data-aos="fade-left" data-aos-duration="1000">
+         <div className={`flex justify-center ${hs.moving}`} >
               <div className="hero_img w-[65%] h-[100%] rounded-full bg-(--medium-color)/60 border-4 border-(--medium-color) relative ">
                 <img src={heroImg} alt="Jolie`s image" className="w-full rounded-b-full"/>
                 <div className="title_1 bg-(--light-color) absolute top-70 -end-25  font-semibold p-2 rounded-xl shadow sm:block hidden">React Developer</div>
-                <div className="title_1 bg-(--light-color) absolute top-17 -start-5 font-semibold p-2 rounded-xl shadow sm:block hidden">Software Engineer</div>
+                <div className="title_1 bg-(--light-color) absolute top-17 -start-15 font-semibold p-2 rounded-xl shadow sm:block hidden">Software Engineer</div>
               </div>
+         </div>
          </div>
         </div>
     </div>

@@ -39,6 +39,7 @@ export function Navbar() {
     </div>
 
     <div className="flex items-center justify-center gap-4 md:order-last">
+    
     <Link to="/contact" className="btn btn-primary text-light nav_contact_btn"><Button className="bg-(--high-color) hover:bg-(--high-color)/80 ">Hire me</Button></Link>
       
      <Switch className="shadow" id="dark-mode" checked={theme === "dark"} onCheckedChange={(checked) =>

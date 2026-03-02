@@ -5,12 +5,14 @@ export function About() {
   return (
     <div>
         <div className="about_section container mx-auto py-8">
+          <div className="title_part" data-aos="fade-down"  data-aos-duration="800">
           <p className="uppercase text-center text-(--second-color)">Get To Know Me</p>
-          <h2 className="title">About Me</h2>
+          <h2 className="title" >About Me</h2>
+          </div>
           <div className="container mx-auto">
            {/* <div className="grid grid-cols-1 lg:grid-cols-2 py-8"> */}
             
-            <div className="summary text-xl p-10 px-[15%] text-center ">
+            <div className="summary text-xl p-10 px-[15%] text-center " data-aos="fade-up" data-aos-duration="800">
               <p className="my-5">
               I’m Jolie Atef, a passionate React & Next.js Developer experienced in building modern, responsive, and high-performance web applications. I specialize in scalable front-end architectures with React, Next.js, and Redux Toolkit, turning complex designs into clean, maintainable, and user-friendly interfaces.</p>
 

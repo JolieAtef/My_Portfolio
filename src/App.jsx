@@ -1,5 +1,8 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 import {Layout} from "./components/Layout/Layout.jsx"
 import {Home} from "./components/Home/Home.jsx"
 import {About} from "./components/About/About.jsx"
@@ -22,7 +25,10 @@ const routes= createBrowserRouter([
 ])
 
 function App() {
-
+  
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <>

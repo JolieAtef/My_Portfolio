@@ -7,8 +7,10 @@ export function Services() {
   return (
     <div className=" ">
          <div className="services_section container mx-auto py-8">
+         <div className="title_part" data-aos="fade-down"  data-aos-duration="800">
           <p className="uppercase text-center text-(--second-color)">What I Offer</p>
           <h2 className="title">My Services</h2>
+          </div>
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 ">
                        {
                           data["services"].map((service) =>{ return (
